@@ -47,6 +47,14 @@
             min-height: 600px;
         }
 
+        .produtos {
+            padding-top: 15px;
+            max-width: 800px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+
         footer {
             background-color: blue;
             min-height: 50px;
@@ -68,7 +76,11 @@
         </ul>
     </nav>
     <div class="corpo">
-        CORPO
+        <div class="produtos">
+            <?php
+                include('pages/home.php');
+            ?>
+        </div>
     </div>    
     <footer>
         Eduardo Ribeiro Bubols<BR>
