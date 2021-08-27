@@ -1,22 +1,43 @@
 <?php
 
-$produtos['pipoca'] = array(
-    'nome' => 'Pipoca doce',
-    'imagem' => 'images/pipoca-doce.png',
+$produtos['baunilha'] = array(
+    'nome' => 'BAUNILHA',
+    'imagem' => 'images/baunilha.jpg',
     'preco' => 'R$ 12,90',
-    'descricao' => 'Uma pipoca feito com açucar e chocolate. Grãos escolhidos a dedo pelos nossos especialistas.'
+    'descricao' => 'Do aroma ao paladar. Venha provar esse campeão de vendas e preferidos entre os clientes.'
 );
-$produtos['pirulito'] = array(
-    'nome' => 'Pirulito',
-    'imagem' => 'images/pirulito.png',
-    'preco' => 'R$ 4,90',
-    'descricao' => 'O melhor e mais saboroso pirulito feito de creme. Edição limitada.'
+$produtos['chocobranco'] = array(
+    'nome' => 'CHOCOLATE BRANCO',
+    'imagem' => 'images/chocobranco.jpg',
+    'preco' => 'R$ 10,00',
+    'descricao' => 'Quer fugir do tradicional? O chocolate branco vai te deixar satisfeito. Pode acompanhar côco ralado.'
 );
 
-$produtos['jujubas'] = array(
-  'nome' => 'Jujuba',
-  'imagem' => 'images/jujubas.png',
-  'preco' => 'R$ 8,90',
-  'descricao' => 'Quem não adora jujubas, não é mesmo? Peça já um pacote de 800g e reparta com a galera!'
+$produtos['chocolate'] = array(
+  'nome' => 'CHOCOLATE',
+  'imagem' => 'images/chocolate.jpg',
+  'preco' => 'R$ 10,00',
+  'descricao' => 'Quem não gosta de chocolate, não é mesmo? O queridinho da galera pode acabar a qualquer momento. Garanta o seu!'
+);
+
+$produtos['docedeleite'] = array(
+  'nome' => 'DOCE DE LEITE',
+  'imagem' => 'images/docedeleite.jpg',
+  'preco' => 'R$ 8,00',
+  'descricao' => 'Tradição não se discute! Churros mais raiz que este, impossível!'
+);
+
+$produtos['morango'] = array(
+  'nome' => 'MORANGO',
+  'imagem' => 'images/morango.jpg',
+  'preco' => 'R$ 12,00',
+  'descricao' => 'Exclusividade na região, você só encontra aqui! Você não vai se arrepender!'
+);
+
+$produtos['creme'] = array(
+  'nome' => 'CREME',
+  'imagem' => 'images/creme.jpg',
+  'preco' => 'R$ 10,00',
+  'descricao' => 'Quem disse um churros não pode ser cremoso? Líder de vendas entre a criançada! Confira!'
 );
   ?>

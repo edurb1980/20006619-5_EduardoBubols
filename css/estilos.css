@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Verdana';
+}
+
+header {
+    height: 150px;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    height: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: brown;
+    font-weight: bolder;
+}
+
+nav {
+    background-color: lightsalmon;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+}
+
+nav ul li {
+    padding-left: 20px;
+    padding-right: 20px;            
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.corpo {
+    min-height: 600px;
+    background-color: lightyellow;
+}
+
+.produtos {
+    padding-top: 15px;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+footer {
+    background-color: orange;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.img-produto {
+    width: 50%;
+}
+
+.txt-produto {
+    width: 50%;
+}
+
+.img-produto img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+}
+
+.thumbprod {
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    
+}
+.thumbprod img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+form {
+    border: 2px solid orangered;
+    border-radius: 50px;
+    width: 100%;
+    font-family: inherit;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+form input, textarea {
+    width: 80%;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-size: inherit;
+}
+
+.botao {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+}

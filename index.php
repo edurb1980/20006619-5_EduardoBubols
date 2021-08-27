@@ -5,79 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Churro - Loja Online</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Verdana';
-        }
-        header {
-            height: 100px;
-            background-color: orange;
-            text-align: center;
-            padding: 10px;
-        }
-        
-        .logo {
-            height: 80px;
-        }
-
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-        nav {
-            background-color: lightsalmon;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            margin: 0px;
-            padding: 0;
-        }
-
-        nav ul li {
-            padding-left: 20px;
-            padding-right: 20px;            
-            padding-top: 12px;
-            padding-bottom: 12px;
-
-        }
-
-        .corpo {
-            min-height: 600px;
-            background-color: lightyellow;
-        }
-
-        .produtos {
-            padding-top: 15px;
-            max-width: 800px;
-            display: flex;
-            flex-wrap: wrap;
-            margin: auto;
-        }
-
-        footer {
-            background-color: orange;
-            min-height: 50px;
-            padding: 10px;
-
-        }
-        </style>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
-        <img src="images/logo.jpg" class="logo">
+        <img src="images/logo.png" class="logo">
     </header>
     <nav>
         <ul>
-            <li> Home </li>
-            <li> Quem somos </li>
-            <li> Contato </li>
-            <li> Localização </li>
+            <li><a href="index.php"> Home </a></li>
+            <li><a href="index.php?page=quemsomos"> Quem somos </a></li>
+            <li><a href="index.php?page=pedidos"> Contato </a></li>
+            <li><a href="index.php?page=localizacao"> Localização </a></li>
         </ul>
     </nav>
     <div class="corpo">
