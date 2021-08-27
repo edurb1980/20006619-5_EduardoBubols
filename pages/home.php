@@ -1,4 +1,6 @@
-
+<?php
+    require_once('dados/dados.php');
+?>
 <style>
     .thumbprod {
         width: 200px;
@@ -9,30 +11,18 @@
         width: 200px;
         height: 200px;
     }
+
 </style>
 
-
-<div class="thumbprod">
-    <img src="images/imagem1.jpg">
-    <h2>Nome do produto 1</h3>
-</div>
-<div class="thumbprod">
-    <img src="images/imagem2.jpg">
-    <h2>Nome do produto 2</h3>
-</div>
-<div class="thumbprod">
-    <img src="images/imagem3.jpg">
-    <h2>Nome do produto 3</h3>
-</div>
-<div class="thumbprod">
-    <img src="images/imagem3.jpg">
-    <h2>Nome do produto 4</h3>
-</div>
-<div class="thumbprod">
-    <img src="images/imagem3.jpg">
-    <h2>Nome do produto 5</h3>
-</div>
-<div class="thumbprod">
-    <img src="images/imagem3.jpg">
-    <h2>Nome do produto 6</h3>
-</div>
+<?php
+    foreach($produtos as $id => $produto) {
+?>
+<a href="index.php?page=produto&id=<?php echo $id?>">
+    <div class="thumbprod">
+        <img src="images/<?php echo $produto['imagem']?>">
+        <h2><?php echo $produto['nome']?></h3>
+    </div>
+</a>
+<?php
+    }
+?>

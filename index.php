@@ -13,7 +13,7 @@
         }
         header {
             height: 100px;
-            background-color: blue;
+            background-color: orange;
             text-align: center;
             padding: 10px;
         }
@@ -22,8 +22,12 @@
             height: 80px;
         }
 
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
         nav {
-            background-color: lightblue;
+            background-color: lightsalmon;
         }
 
         nav ul {
@@ -45,6 +49,7 @@
 
         .corpo {
             min-height: 600px;
+            background-color: lightyellow;
         }
 
         .produtos {
@@ -56,7 +61,7 @@
         }
 
         footer {
-            background-color: blue;
+            background-color: orange;
             min-height: 50px;
             padding: 10px;
 
@@ -78,7 +83,13 @@
     <div class="corpo">
         <div class="produtos">
             <?php
-                include('pages/home.php');
+                $page = "home";
+                if (isset($_GET['page'])){
+                    if(file_exists("pages/".$_GET['page'].".php")){
+                        $page = $_GET['page'];
+                    }
+                }
+                include("pages/$page.php");
             ?>
         </div>
     </div>    
